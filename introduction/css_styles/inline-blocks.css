@@ -1,0 +1,29 @@
+
+input{
+    padding: 0px;
+
+}
+
+.firstname, .secondname{
+    height: 20px; 
+    width: 90px;
+}
+
+.email{
+    display: block;
+    height: 20px;
+    width: 188px;
+    margin-bottom:2px;
+    margin-top: 2px;
+}
+
+.sign-in-button{
+    border:none;
+    width: 192px;
+    height: 20px;
+    background-color: rgb(52, 152, 219);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+
+}

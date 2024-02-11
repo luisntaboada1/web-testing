@@ -1,0 +1,35 @@
+button{
+    cursor: pointer;
+}
+
+.button1{
+    color: white; 
+    background-color: rgb(199, 0, 57);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px; 
+    margin-right: 10px;
+    
+    transition: padding-left .2s , padding-top .2s , padding-right 0.2s , padding-bottom 0.2s , border-radius 0.2s ;
+}
+
+.button1:hover{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px
+}
+
+.button1:active{
+    background-color: rgb(144, 12, 63);
+    padding-left: 13px;
+    padding-top: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px;
+    border-radius: 13px;
+    transition: padding-left 0s , padding-top 0s , padding-right 0s , padding-bottom 0s , border-radius 0s ;
+}
